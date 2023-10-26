@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" lang="pt-br">
+        <title> Lista de tarefas </title>
+        <a rel="stylesheet" href="style.css"></a>
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <h1> Lista de Tarefas </h1>
+        <form name="form">
+            <label for="task"> Tarefa: </label>
+            <input type="text" name="task" id="task"> 
+<br>
+            <button type="button" onclick="add()"> Add </button>
+        </form>
+        <fieldset>
+            <legend> Tarefa: </legend>
+            <ul>
+
+            </ul>
+        </fieldset>
+
+        <script>
+
+        </script>
+    </body>
+</html>
